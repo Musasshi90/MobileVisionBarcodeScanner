@@ -20,13 +20,14 @@ import android.content.Context;
 import android.content.pm.PackageManager;
 import android.content.res.Configuration;
 import android.graphics.Canvas;
-import android.support.annotation.RequiresPermission;
-import android.support.v4.app.ActivityCompat;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.ViewGroup;
+
+import androidx.annotation.RequiresPermission;
+import androidx.core.app.ActivityCompat;
 
 import com.google.android.gms.common.images.Size;
 
